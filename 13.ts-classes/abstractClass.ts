@@ -7,7 +7,7 @@ abstract class Employee {
 }
 
 class FullTimeEmployee extends Employee {
-    constructor(public first: string, public last: string, public  salary: number) {
+    constructor(public first: string, public last: string, private  salary: number) {
         super(first, last);
 
     }
